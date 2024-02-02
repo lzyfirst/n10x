@@ -1,0 +1,11 @@
+KernelSU
+aarch64-linux-android-4.9
+arm-linux-androideabi-4.9
+linux-x86
+kernel.log
+out
+0/dtb
+0/kernel
+0/new-boot.img
+0/ramdisk.cpio
+0/boot.img
