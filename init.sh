@@ -11,6 +11,6 @@ apt-get clean
 apt-get autoremove --purge
 
 # 克隆指定分支的仓库
-# git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
-# git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
-# git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 
+git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+git clone --depth 1 -b llvm-r399163b -- https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 
